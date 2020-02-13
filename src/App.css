@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: green;
+    border: 30px solid burlywood;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#root {
+    padding: 10vh;
+}
+
+#gameContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    border: 2px solid black;
+}
+
+#Win {
+    color: gold;
+}
+
+#Lose {
+    color: darkred;
+}
